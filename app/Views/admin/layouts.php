@@ -141,8 +141,8 @@
 
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
-            <li class="menu-item active">
-              <a href="index.html" class="menu-link">
+            <li class="menu-item <?= $active == "dashboard" ? "active" : "" ?>">
+              <a href="/admin/dashboard" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -168,15 +168,15 @@
              <!-- Blog -->
              <li class="menu-header small text-uppercase"><span class="menu-header-text">BLOG</span></li>            
             <!-- Kategori -->
-            <li class="menu-item">
-              <a href="tables-basic.html" class="menu-link">
+            <li class="menu-item <?= $active == "kategoriBlog" ? "active" : "" ?>">
+              <a href="/admin/kategoriBlog" class="menu-link">
               <i class='menu-icon tf-icons bx bx-category'></i>
                 <div data-i18n="category">Kategori</div>
               </a>
             </li>
              <!-- Article -->
-             <li class="menu-item">
-              <a href="tables-basic.html" class="menu-link">
+             <li class="menu-item <?= $active == "artikel" ? "active" : "" ?>">
+              <a href="/admin/artikel" class="menu-link">
               <i class='menu-icon tf-icons bx bx-news' ></i>
                 <div data-i18n="article">Article</div>
               </a>

@@ -53,6 +53,11 @@
                         <!-- <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#testimonial">Testimonial</a></li> -->
                         <!-- <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#faq">FAQ</a></li> -->
                         <li class="nav-item"><a href="/blog" class="nav-link fw-medium text-danger">Blog</a></li>
+                        <?php if (logged_in()) : ?>
+                            <li class="nav-item"><a href="/admin/dashboard" class="nav-link fw-medium text-danger">Go To Dashboard</a></li>
+                        <?php else : ?>
+                            <li class="nav-item"><a href="/login" class="nav-link fw-medium text-danger">Login</a></li>
+                        <?php endif; ?>
                     </ul>
                     <form class="ps-lg-5">
                         <button class="btn btn-lg btn-primary rounded-pill order-0" type="submit">Gabung Sekarang</button>
