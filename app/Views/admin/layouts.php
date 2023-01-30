@@ -60,6 +60,9 @@
     <!-- Helpers -->
     <script src="<?= base_url() ?>/admin/assets/vendor/js/helpers.js"></script>
 
+    <!-- CKeditor -->
+    <script src="//cdn.ckeditor.com/4.20.1/full/ckeditor.js"></script>
+
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="<?= base_url() ?>/admin/assets/js/config.js"></script>
@@ -412,5 +415,20 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script>
+      function ImgPreview() {
+        const thumb = document.querySelector('#thumb')
+        const imgPreview = document.querySelector('.img-preview')
+  
+        const fileThumb = new FileReader();
+        fileThumb.readAsDataURL(thumb.files[0])
+  
+        fileThumb.onload = function(e){
+          imgPreview.src = e.target.result
+        }
+      }
+
+    </script>
   </body>
 </html>
