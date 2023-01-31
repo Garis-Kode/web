@@ -64,6 +64,13 @@ class Artikel extends BaseController
         ];
         return view("admin/tambah_artikel_admin", $data);
     }
+    public function delete($id)
+    {
+        //return $id;
+        $this->Blog->delete($id);
+        session()->setFlashdata('hapus', 'Data Telah Berhasil di Hapus');
+        return redirect()->to('/admin/artikel');
+    }
 }
 
 function slugify($text, string $divider = '-')

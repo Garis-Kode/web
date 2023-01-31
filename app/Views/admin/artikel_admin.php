@@ -28,7 +28,7 @@
                                 <p class="card-text">
                                     <button type="button" class="btn btn-primary">View</button>
                                     <button type="button" class="btn btn-warning">Edit</button>
-                                    <button type="button" class="btn btn-danger">Hapus</button>
+                                    <a href="/admin/artikel/delete/<?= $item["id"] ?>"><button type="button" class="btn btn-danger">Hapus</button></a>
                                 </p>
 
                             </div>

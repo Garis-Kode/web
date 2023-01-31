@@ -29,6 +29,7 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="depan/assets/css/theme.css" rel="stylesheet" />
+    <link href="depan/assets/css/style.css" rel="stylesheet" />
 
 </head>
 
@@ -47,7 +48,7 @@
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
-                        <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium active" aria-current="page" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link fw-medium active" aria-current="page" href="/">Home</a></li>
                         <!-- <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#features">Key Features</a></li> -->
                         <!-- <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#pricing">Pricing</a></li> -->
                         <!-- <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#testimonial">Testimonial</a></li> -->
@@ -72,12 +73,53 @@
 
             <div class="container position-relative">
                 <div class="row align-items-center py-8">
-                    <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="depan/assets/img/ilustrasi/banner.png" width="700" alt="" /></div>
-                    <div class="col-md-7 col-lg-6 text-center text-md-start">
-                        <!-- <span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="depan/assets/img/illustrations/arrow-right.png" alt="" /></span> -->
-                        <h1 class="mb-4 display-3 fw-bold lh-sm">Garis Kode <br class="d-block d-lg-none d-xl-block" />Community</h1>
-                        <p class="mt-3 mb-4 fs-1">membawa para Developer untuk bekerja sama mencari pengalaman, <br class="d-none d-lg-block" />dari komunitas untuk komunitas</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Gabung Sekarang</a><a class="btn btn-link ps-md-4" href="#" role="button"> Watch demo video</a>
-                    </div>
+
+
+                    <?php if ($title == "Blog") : ?>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><?= $blog[0]["judul"] ?></h5>
+                                                <p class="card-text">
+                                                    This is a wider card with supporting text below as a natural lead-in to additional content.
+                                                    This content is a little bit longer.
+                                                </p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="card-img card-img-right" src="<?= base_url() ?>/thumbnail/<?= $blog[0]["gambar"] ?>" alt="Card image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+
+
+
+                        <!-- <div class="card mb-3">
+                            <img alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><?= $blog[0]["judul"] ?></h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div> -->
+                    <?php else : ?>
+                        <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="depan/assets/img/ilustrasi/banner.png" width="700" alt="" /></div>
+                        <div class="col-md-7 col-lg-6 text-center text-md-start">
+                            <!-- <span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="depan/assets/img/illustrations/arrow-right.png" alt="" /></span> -->
+                            <h1 class="mb-4 display-3 fw-bold lh-sm">Garis Kode <br class="d-block d-lg-none d-xl-block" />Community</h1>
+                            <p class="mt-3 mb-4 fs-1">membawa para Developer untuk bekerja sama mencari pengalaman, <br class="d-none d-lg-block" />dari komunitas untuk komunitas</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Gabung Sekarang</a><a class="btn btn-link ps-md-4" href="#" role="button"> Watch demo video</a>
+                        </div>
+                    <?php endif ?>
+
+
                 </div>
             </div>
         </section>

@@ -190,7 +190,7 @@
             <!-- Projects -->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Project</span></li>
             <!-- Open Source Project -->
-            <li class="menu-item">
+            <li class="menu-item <?= $active == "Open Source Project" ? "active" : "" ?>">
               <a href="tables-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-table"></i>
                 <div data-i18n="project">Open Source Project</div>
