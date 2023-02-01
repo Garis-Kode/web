@@ -6,96 +6,127 @@
     <section class="blog-wrap mb-5">
         <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-lg-9">
-                <h6 class="fw-bold fs-4 display-3 lh-sm">Blog Kami</h6>
-                <p class="mt-3 mb-4  pe-xl-5"> Baca artikel dan totorial menaik disisni</p>
-            </div>
-            <div class="col-lg-3">
-                <div class="input-group mb-3 rounded-pill">
-                    <input type="text" class="form-control rounded-pill ps-3" placeholder="Cari Sesuatu..">
-                </div>
-            </div>
-            <div class="col-12 mb-2 py-5 text-center">
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">ALL</a>
-                <a href="" class="btn btn-secondary rounded-pill px-4 btn-sm mx-1">Berita</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Artikel</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Tutorial</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Berita</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Artikel</a>
-            </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
+                    <div class="col-8 my-3">
+                        <div class="card rounded-3 p-5">
                             <div class="card-body">
+                              <h1 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h1>
+                              <p>11 September 2022 | Berita</p>
+                              <hr>
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
+                                                                <p>
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, sit, impedit culpa quo magnam error non voluptatibus aut velit possimus hic necessitatibus vel veniam amet unde facere praesentium cumque quos!
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
+                    <div class="col-lg-4 mb-3">
+                      <div class="row">
+                        <h5 class="fw-bold mb-4 mt-3">Artikel Lainnya</h5>
+                        <div class="col-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <p class="card-text fw-bold mb-0">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</p>
+                                  <small class="text-muted">20 jan 2002</small>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
+                        <div class="col-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <p class="card-text fw-bold mb-0">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</p>
+                                  <small class="text-muted">20 jan 2002</small>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
+                        <div class="col-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <p class="card-text fw-bold mb-0">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</p>
+                                  <small class="text-muted">20 jan 2002</small>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
+                        <div class="col-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <p class="card-text fw-bold mb-0">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</p>
+                                  <small class="text-muted">20 jan 2002</small>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
+                        <div class="col-12">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <p class="card-text fw-bold mb-0">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</p>
+                                  <small class="text-muted">20 jan 2002</small>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 my-3">
-                        <div class="card rounded-3 bg-white shadow-lg">
-                            <div class="card-body">
-                                <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
-                                <p>11 September 2022</p>
-                                <h5 class="fw-bold text-undefined pb-3">Tutorial Tailwind #1: Dasar Tailwind CSS untuk Pemula</h5>
-                            </div>
-                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
