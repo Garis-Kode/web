@@ -26,4 +26,14 @@ class Depan extends BaseController
         ];
         return view('depan/blog_depan', $data);
     }
+
+    public function blog_detail()
+    {
+        $Blog = $this->Blog->findAll();
+        $data = [
+            "title" => "Blog",
+            "blog" => $Blog
+        ];
+        return view('depan/blog_detail', $data);
+    }
 }

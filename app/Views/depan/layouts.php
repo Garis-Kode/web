@@ -16,20 +16,21 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="depan/assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="depan/assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="depan/assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="depan/assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="depan/assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="depan/assets/img/favicons/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url()?>/depan/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url()?>/depan/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url()?>/depan/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url()?>/depan/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="<?= base_url()?>/depan/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="<?= base_url()?>/depan/assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="depan/assets/css/theme.css" rel="stylesheet" />
-    <link href="depan/assets/css/style.css" rel="stylesheet" />
+    <link href="<?= base_url()?>/depan/assets/css/theme.css" rel="stylesheet" />
+    <link href="<?= base_url()?>/depan/assets/css/style.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
@@ -42,7 +43,7 @@
     <main class="main" id="top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
             <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="index.html">
-                    <div> <img src="depan/assets/img/icons/logo.png" alt="logo" width="60"></div>
+                    <div> <img src="<?= base_url()?>/depan/assets/img/icons/logo.png" alt="logo" width="60"></div>
                     <!-- <div class="text-info">Garis Kode</div> -->
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -67,7 +68,7 @@
             </div>
         </nav>
         <section class="py-0" id="home">
-            <div class="bg-holder" style="background-image:url(depan/assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
+            <div class="bg-holder" style="background-image:url(<?= base_url()?>/depan/assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
             </div>
             <!--/.bg-holder-->
 
@@ -111,9 +112,9 @@
                             </div>
                         </div> -->
                     <?php else : ?>
-                        <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="depan/assets/img/ilustrasi/banner.png" width="700" alt="" /></div>
+                        <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="<?= base_url()?>/depan/assets/img/ilustrasi/banner.png" width="700" alt="" /></div>
                         <div class="col-md-7 col-lg-6 text-center text-md-start">
-                            <!-- <span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="depan/assets/img/illustrations/arrow-right.png" alt="" /></span> -->
+                            <!-- <span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="<?= base_url()?>/depan/assets/img/illustrations/arrow-right.png" alt="" /></span> -->
                             <h1 class="mb-4 display-3 fw-bold lh-sm">Garis Kode <br class="d-block d-lg-none d-xl-block" />Community</h1>
                             <p class="mt-3 mb-4 fs-1">membawa para Developer untuk bekerja sama mencari pengalaman, <br class="d-none d-lg-block" />dari komunitas untuk komunitas</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Gabung Sekarang</a><a class="btn btn-link ps-md-4" href="#" role="button"> Watch demo video</a>
                         </div>
@@ -201,11 +202,11 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="depan/vendors/@popperjs/popper.min.js"></script>
-    <script src="depan/vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="depan/vendors/is/is.min.js"></script>
+    <script src="<?= base_url()?>/depan/vendors/@popperjs/popper.min.js"></script>
+    <script src="<?= base_url()?>/depan/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="<?= base_url()?>/depan/vendors/is/is.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="depan/assets/js/theme.js"></script>
+    <script src="<?= base_url()?>/depan/assets/js/theme.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
 </body>

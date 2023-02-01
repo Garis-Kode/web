@@ -16,16 +16,16 @@
                 </div>
             </div>
             <div class="col-12 mb-2 py-5 text-center">
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1 my-2">ALL</a>
-                <a href="" class="btn btn-secondary rounded-pill px-4 btn-sm mx-1 my-2">Berita</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1 my-2">Artikel</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1 my-2">Tutorial</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1 my-2">Berita</a>
-                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1 my-2">Artikel</a>
+                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">ALL</a>
+                <a href="" class="btn btn-secondary rounded-pill px-4 btn-sm mx-1">Berita</a>
+                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Artikel</a>
+                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Tutorial</a>
+                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Berita</a>
+                <a href="" class="btn btn-outline-secondary rounded-pill px-4 btn-sm mx-1">Artikel</a>
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="col-4 my-3">
                         <div class="card rounded-3 bg-white shadow-lg">
                             <div class="card-body">
                                 <img src="https://himatif.unimal.ac.id/img/contoh.jpg" class="card-img-top rounded-3 mb-4" alt="...">

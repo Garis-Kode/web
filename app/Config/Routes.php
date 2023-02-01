@@ -31,6 +31,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Depan::index');
 $routes->get('/blog', 'Depan::blog');
+$routes->get('/artikel', 'Depan::blog_detail');
 $routes->get('/Admin', 'Admin\Dashboard::index');
 
 /*
