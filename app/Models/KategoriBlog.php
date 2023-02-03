@@ -24,7 +24,7 @@ class KategoriBlog extends Model
 
     // // Callbacks
     // protected $allowCallbacks = true;
-    // protected $beforeInsert   = [];
+    // protected $beforeInsert   = [];a
     // protected $afterInsert    = [];
     // protected $beforeUpdate   = [];
     // protected $afterUpdate    = [];
@@ -32,4 +32,13 @@ class KategoriBlog extends Model
     // protected $afterFind      = [];
     // protected $beforeDelete   = [];
     // protected $afterDelete    = [];
+
+    public function relasi()
+    {
+        $query = $this->db->table('kategori_blog')
+            ->join('blog', 'blog.kategori_id=kategori_blog.id')
+            ->get()->getResultArray();
+
+        return $query;
+    }
 }
