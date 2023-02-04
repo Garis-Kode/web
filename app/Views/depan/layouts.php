@@ -207,6 +207,7 @@
     <script src="<?= base_url() ?>/depan/vendors/is/is.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="<?= base_url() ?>/depan/assets/js/theme.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <script>
         var content = document.getElementById('ResultBlog');

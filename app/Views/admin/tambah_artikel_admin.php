@@ -17,6 +17,12 @@
                         <input type="text" class="form-control" id="judul" placeholder="Masukkan Judul Artikel" name="judul">
                     </div>
                 </div>
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label" for="basic-default-message">Meta Description</label>
+                    <div class="col-sm-10">
+                        <textarea id="basic-default-message" class="form-control" placeholder="Masukkan Meta Description" aria-describedby="basic-icon-default-message2" name="deskripsi"></textarea>
+                    </div>
+                </div>
 
             </div>
         </div>

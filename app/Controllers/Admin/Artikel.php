@@ -47,6 +47,7 @@ class Artikel extends BaseController
             'user_id' => user()->id,
             'author' => user()->name,
             'slug' => slugify($this->request->getVar('judul')),
+            'meta_description' => $this->request->getVar('deskripsi'),
         ]);
         session()->setFlashdata('pesan', 'Data Telah Berhasil di Simpan');
         return redirect()->to('/admin/artikel');

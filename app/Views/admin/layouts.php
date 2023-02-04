@@ -44,6 +44,7 @@
 
     <!-- Icons. Uncomment required icon fonts -->
     <link rel="stylesheet" href="<?= base_url() ?>/admin/assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css">
 
     <!-- Core CSS -->
     <link rel="stylesheet" href="<?= base_url() ?>/admin/assets/vendor/css/core.css" class="template-customizer-core-css" />
@@ -406,6 +407,8 @@
 
     <!-- Vendors JS -->
     <script src="<?= base_url() ?>/admin/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
 
     <!-- Main JS -->
     <script src="<?= base_url() ?>/admin/assets/js/main.js"></script>
@@ -416,6 +419,11 @@
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
+<script>
+  $(document).ready(function () {
+    $('#example').DataTable();
+});
+</script>
     <script>
       function ImgPreview() {
         const thumb = document.querySelector('#thumb')

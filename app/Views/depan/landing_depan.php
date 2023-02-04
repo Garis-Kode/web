@@ -98,7 +98,9 @@
             <div class="col-md-6 text-center text-md-start offset-md-1">
                 <h6 class="fw-bold fs-4 display-3 lh-sm">Belajar Bersama kami</h6>
                 <p class="my-4 pe-xl-5"> Kami Menyediakan Pembelajaran untuk Komunitas. yang berbasis video, ataupun teks bacaan</p>
-                <a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Learn more</a>
+                <a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button"><i class='bx bx-book-open'></i> Wiki</a>
+                <a class="btn btn-lg btn-danger rounded-pill hover-top"> <i class='bx bxl-youtube'></i> Youtube</a>
+
             </div>
             <div class="col-md-5 order-md-0 text-center text-md-start">
                 <img class="img-fluid mb-4" src="depan/assets/img/ilustrasi/banner3.png" width="600" alt="" />
@@ -166,7 +168,7 @@
 
 
 
-<section class="py-8" id="testimonial">
+<!-- <section class="py-8" id="testimonial">
     <div class="container-lg">
         <div class="row flex-center">
             <div class="col-sm-10 col-md-5 col-lg-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="depan/assets/img/illustrations/testimonial.png" alt="" /></div>
@@ -276,10 +278,10 @@
     </div>
 </section>
 
+ ============================================-->
 
-<!-- ============================================-->
 <!-- <section> begin ============================-->
-<section class="py-8" id="faq">
+<!-- <section class="py-8" id="faq">
 
     <div class="container">
         <div class="row justify-content-center">
@@ -335,9 +337,8 @@
             </div>
         </div>
     </div>
-    <!-- end of .container-->
 
-</section>
+</section> --> -->
 <!-- <section> close ============================-->
 <!-- ============================================-->
 
