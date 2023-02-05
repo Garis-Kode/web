@@ -68,64 +68,44 @@
             </div>
         </nav>
         <section class="py-0" id="home">
-            <div class="bg-holder" style="background-image:url(<?= base_url() ?>/depan/assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
-            </div>
             <!--/.bg-holder-->
-
             <div class="container position-relative">
-                <div class="row align-items-center py-8">
 
-
-                    <?php if ($title == "Blog") : ?>
-                        <div class="row">
-                            <div class="col-md-2"></div>
-                            <div class="col-md-8">
-                                <div class="card mb-3">
-                                    <div class="row g-0">
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h5 class="card-title"><?= $blog[0]["judul"] ?></h5>
-                                                <p class="card-text">
-                                                    This is a wider card with supporting text below as a natural lead-in to additional content.
-                                                    This content is a little bit longer.
-                                                </p>
-                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <img class="card-img card-img-right" src="<?= base_url() ?>/thumbnail/<?= $blog[0]["gambar"] ?>" alt="Card image">
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="row align-items-center justify-content-center py-8">
+                            <div class="col-offset-lg-2 col-lg-10 text-center text-md-start pt-5">
+                                <h1 class="mb-4 display-3 fw-bold pt-5">Garis Kode Community</h1>
+                                <p class="mt-3 mb-4 fs-1">membawa para Developer untuk bekerja sama mencari pengalaman, <br> dari komunitas untuk komunitas</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Gabung Sekarang</a>
                             </div>
-                            <div class="col-md-2"></div>
                         </div>
 
-
-
-                        <!-- <div class="card mb-3">
-                            <img alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><?= $blog[0]["judul"] ?></h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div> -->
-                    <?php else : ?>
-                        <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="<?= base_url() ?>/depan/assets/img/ilustrasi/banner.png" width="700" alt="" /></div>
-                        <div class="col-md-7 col-lg-6 text-center text-md-start">
-                            <!-- <span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="<?= base_url() ?>/depan/assets/img/illustrations/arrow-right.png" alt="" /></span> -->
-                            <h1 class="mb-4 display-3 fw-bold lh-sm">Garis Kode <br class="d-block d-lg-none d-xl-block" />Community</h1>
-                            <p class="mt-3 mb-4 fs-1">membawa para Developer untuk bekerja sama mencari pengalaman, <br class="d-none d-lg-block" />dari komunitas untuk komunitas</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Gabung Sekarang</a><a class="btn btn-link ps-md-4" href="#" role="button"> Watch demo video</a>
-                        </div>
-                    <?php endif ?>
-
-
-                </div>
             </div>
         </section>
 
-
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                   <div class="col-10">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 mb-4">
+                                <div class="py-4"><img class="img-fluid" src="<?= base_url() ?>/depan/assets/img/illustrations/automatic.png" width="90" alt=""></div>
+                                <h5 class="fw-bold text-danger">Fast performance</h5>
+                                <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                            </div>
+                            <div class="col-md-4 col-lg-4 mb-4">
+                                <div class="py-4"><img class="img-fluid" src="<?= base_url() ?>/depan/assets/img/illustrations/network.png" width="90" alt=""></div>
+                                <h5 class="fw-bold text-primary">Prototyping</h5>
+                                <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                            </div>
+                            <div class="col-md-4 col-lg-4 mb-4">
+                                <div class="py-4"><img class="img-fluid" src="<?= base_url() ?>/depan/assets/img/illustrations/rewards.png" width="90" alt=""></div>
+                                <h5 class="fw-bold text-success">Vector Editing</h5>
+                                <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
 
         <?= $this->renderSection('content') ?>
 
