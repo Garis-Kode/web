@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\Blog;
 use App\Models\KategoriBlog;
 
+
 class Depan extends BaseController
 {
     protected $Blog, $kategoriBlog;
@@ -15,8 +16,15 @@ class Depan extends BaseController
     }
     public function index()
     {
-        $data = ["title" => "Home"];
-        return view('depan/landing_depan', $data);
+        $kategoriBlog  = $this->kategoriBlog->findAll();
+        $Blog  = $this->Blog;
+        $data = [
+            "title" => "Home",
+            "kategori" => $kategoriBlog,
+            "blog" => $Blog->paginate(9),
+            'pager' => $Blog->pager,
+        ];
+        return view('depan/home', $data);
     }
 
     public function blog()
@@ -38,8 +46,6 @@ class Depan extends BaseController
         $Blog = $this->Blog->where("kategori_id", $kategoriId)->findAll();
 
         return $this->response->setJSON($Blog);
-
-
     }
 
     public function blog_detail()
