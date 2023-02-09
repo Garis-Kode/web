@@ -115,7 +115,9 @@ ol {
 .bg-blue{
 	background-color: #120851;
 }
-
+* a{
+	text-decoration: none;
+}
 .section-title {
 	margin-bottom: 30px;
 	text-align: center;
